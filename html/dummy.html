@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../webfonts/all.min.css">
+    <link href="../vendor/animate.css" rel="stylesheet">
+    <link href="../../vendor/aos/aos.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../css/new_style.css" rel="stylesheet">
+    
+  
+    
+</head>
+<body>
+    <div class="container-fluid" id="stick_bar" style="background-color: white;">
+        <div class="row">
+          <div class="col-sm-3 ">
+            <img class="img-responsive" src="../media/hosp_logo.png"  >
+          </div>
+          <div class="col-sm-6">
+            <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search city" aria-label="Search"
+                  aria-describedby="search-addon" />
+                  <input type="search" class="form-control rounded" placeholder="Search Disease" aria-label="Search"
+                  aria-describedby="search-addon" />
+                  <button id="search_btn" class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+              </div>
+          </div>
+          <div class="col-sm-3">
+            <a href="#">
+                <div class="lgbtn">
+                    <button class="btn" id="signup"> <i class="fas fa-user" style="font-size: 2rem; color:deepskyblue;margin-top: 10px;"></i> <p>Login / Signup</p></button>
+                </div>
+            
+            </a>
+           
+          </div>
+        </div>
+      </div><hr>
+
+
+<div class="container-fluid" >
+  <div class="row">
+
+  <div class="col-sm-3">
+    <div class="listining-section" id="sticky_vert">
+      <aside class="sidebar" >
+          <div class="filters__heading">
+              <span>Filter</span>
+              <hr>
+              <p>Hospital Rooms </p>
+              <form action="#">
+                  <div class="filter-content">
+                      <input type="checkbox" id="vehicle1" name="vehicle1" value="General ward">
+                      <label for="vehicle1">General Ward </label><br>
+                      <input type="checkbox" id="vehicle2" name="vehicle2" value="Ac wards">
+                      <label for="vehicle2"> Ac ward</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="VIP rooms">
+                      <label for="vehicle3"> VIP rooms</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Executive rooms">
+                      <label for="vehicle3"> Executive rooms</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Deluxe rooms">
+                      <label for="vehicle3"> Deluxe rooms</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Semi-private rooms">
+                      <label for="vehicle3"> Semi-private rooms</label>
+                  </div>
+                 
+                  
+                </form>
+                <hr style="border-width: 3px;">
+
+                <p>Hospital Facilities</p>
+              <form action="#">
+                  <div class="filter-content">
+                      <input type="checkbox" id="vehicle1" name="vehicle1" value="intercontinental food">
+                      <label for="vehicle1"> food and Dietary services </label><br>
+                      <input type="checkbox" id="vehicle2" name="vehicle2" value="Parking">
+                      <label for="vehicle2"> Parking</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Laundry Services">
+                      <label for="vehicle3"> Laundry Services</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Ambulance Service">
+                      <label for="vehicle3"> Ambulance Service</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Bank and ATM">
+                      <label for="vehicle3"> Bank and ATM</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Special Nurse">
+                      <label for="vehicle3"> Special Nurse</label><br>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Housekeeping Services">
+                      <label for="vehicle3"> Housekeeping Services</label>
+
+                  </div>
+               
+                  
+                </form>
+          </div>
+      </aside>
+   </div>
+   </div>
+
+   <div class="col-sm-9">
+    <!-- <div class="main-content"> -->
+      <div class="card mb-3" style="height: 332px; border-width: 2px;" >
+          <div class="row no-gutters" >
+              <div class="col-auto">
+                  <img src="../media/hospital_img1.jfif" class="img-fluid" alt="resposive image" >
+              </div>         
+
+          
+              <div class="col">
+                  <div class="card-block px-2">
+                      <h1 class="card-title">SKN Hospital Pune</h1><hr>
+              
+                      <p class="card-text">Pune near Dhayari Phata</p>
+                      <div class="star">
+                          <p>5.0 <i class="fas fa-star"></i></p>
+                      </div>
+                      <div class="facalities" id="main">
+                          <p><i class="fa fa-car" aria-hidden="true"></i> Parking  &nbsp; <i class="fa fa-wifi" aria-hidden="true"></i> Wifi  &nbsp; <i class="fa fa-bolt" aria-hidden="true"></i> Power Backup  &nbsp; <i class="fa fa-plus" aria-hidden="true"></i> 10 More</p>
+                      </div>
+                      <div class="price">
+                          <h4>Free</h4>
+                      </div>
+                      <div class="btn1">
+                          <a href="#" class="btn btn-primary" style="background-color: transparent;border-color:black;color:black;font-weight: 700;">Details</a>
+                  
+                          <a href="#" class="btn btn-primary" style="background-color: green;color:white;font-weight: 600;">Book Appointment</a>
+                      </div>
+                  
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="card mb-3" style="height: 332px; border-width: 2px;" >
+          <div class="row no-gutters" >
+              <div class="col-auto">
+                  <img src="../media/hospital_img2.jfif" class="img-fluid" alt="resposive image" >
+              </div>         
+
+          
+              <div class="col">
+                  <div class="card-block px-2">
+                      <h1 class="card-title">SKN Hospital Pune</h1><hr>
+              
+                      <p class="card-text">Pune near Dhayari Phata</p>
+                      <div class="star">
+                          <p>5.0 <i class="fas fa-star"></i></p>
+                      </div>
+                      <div class="facalities" id="main">
+                          <p><i class="fa fa-car" aria-hidden="true"></i> Parking  &nbsp; <i class="fa fa-wifi" aria-hidden="true"></i> Wifi  &nbsp; <i class="fa fa-bolt" aria-hidden="true"></i> Power Backup  &nbsp; <i class="fa fa-plus" aria-hidden="true"></i> 10 More</p>
+                      </div>
+                      <div class="price">
+                          <h4>Free</h4>
+                      </div>
+                      <div class="btn1">
+                          <a href="#" class="btn btn-primary" style="background-color: transparent;border-color:black;color:black;font-weight: 700;">Details</a>
+                  
+                          <a href="#" class="btn btn-primary" style="background-color: green;color:white;font-weight: 600;">Book Appointment</a>
+                      </div>
+                  
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card mb-3" style="height: 332px; border-width: 2px;" >
+          <div class="row no-gutters" >
+              <div class="col-auto">
+                  <img src="../media/hospital_img3.jfif" class="img-fluid" alt="resposive image" >
+              </div>         
+
+          
+              <div class="col">
+                  <div class="card-block px-2">
+                      <h1 class="card-title">SKN Hospital Pune</h1><hr>
+              
+                      <p class="card-text">Pune near Dhayari Phata</p>
+                      <div class="star">
+                          <p>5.0 <i class="fas fa-star"></i></p>
+                      </div>
+                      <div class="facalities" id="main">
+                          <p><i class="fa fa-car" aria-hidden="true"></i> Parking  &nbsp; <i class="fa fa-wifi" aria-hidden="true"></i> Wifi  &nbsp; <i class="fa fa-bolt" aria-hidden="true"></i> Power Backup  &nbsp; <i class="fa fa-plus" aria-hidden="true"></i> 10 More</p>
+                      </div>
+                      <div class="price">
+                          <h4>Free</h4>
+                      </div>
+                      <div class="btn1">
+                          <a href="#" class="btn btn-primary" style="background-color: transparent;border-color:black;color:black;font-weight: 700;">Details</a>
+                  
+                          <a href="#" class="btn btn-primary" style="background-color: green;color:white;font-weight: 600;">Book Appointment</a>
+                      </div>
+                  
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="card mb-3" style="height: 332px; border-width: 2px;" >
+          <div class="row no-gutters" >
+              <div class="col-auto">
+                  <img src="../media/hospital_img4.jfif" class="img-fluid" alt="resposive image" >
+              </div>         
+
+          
+              <div class="col">
+                  <div class="card-block px-2">
+                      <h1 class="card-title">SKN Hospital Pune</h1><hr>
+              
+                      <p class="card-text">Pune near Dhayari Phata</p>
+                      <div class="star">
+                          <p>5.0 <i class="fas fa-star"></i></p>
+                      </div>
+                      <div class="facalities" id="main">
+                          <p><i class="fa fa-car" aria-hidden="true"></i> Parking  &nbsp; <i class="fa fa-wifi" aria-hidden="true"></i> Wifi  &nbsp; <i class="fa fa-bolt" aria-hidden="true"></i> Power Backup  &nbsp; <i class="fa fa-plus" aria-hidden="true"></i> 10 More</p>
+                      </div>
+                      <div class="price">
+                          <h4>Free</h4>
+                      </div>
+                      <div class="btn1">
+                          <a href="#" class="btn btn-primary" style="background-color: transparent;border-color:black;color:black;font-weight: 700;">Details</a>
+                  
+                          <a href="#" class="btn btn-primary" style="background-color: green;color:white;font-weight: 600;">Book Appointment</a>
+                      </div>
+                  
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="card mb-3" style="height: 332px; border-width: 2px;" >
+          <div class="row no-gutters" >
+              <div class="col-auto">
+                  <img src="../media/hospital_img5.jfif" class="img-fluid" alt="resposive image" >
+              </div>         
+
+          
+              <div class="col">
+                  <div class="card-block px-2">
+                      <h1 class="card-title">SKN Hospital Pune</h1><hr>
+              
+                      <p class="card-text">Pune near Dhayari Phata</p>
+                      <div class="star">
+                          <p>5.0 <i class="fas fa-star"></i></p>
+                      </div>
+                      <div class="facalities" id="main">
+                          <p><i class="fa fa-car" aria-hidden="true"></i> Parking  &nbsp; <i class="fa fa-wifi" aria-hidden="true"></i> Wifi  &nbsp; <i class="fa fa-bolt" aria-hidden="true"></i> Power Backup  &nbsp; <i class="fa fa-plus" aria-hidden="true"></i> 10 More</p>
+                      </div>
+                      <div class="price">
+                          <h4>Free</h4>
+                      </div>
+                      <div class="btn1">
+                          <a href="#" class="btn btn-primary" style="background-color: transparent;border-color:black;color:black;font-weight: 700;">Details</a>
+                  
+                          <a href="#" class="btn btn-primary" style="background-color: green;color:white;font-weight: 600;">Book Appointment</a>
+                      </div>
+                  
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+         <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-2 col-md-6 footer-info">
+            <h3>Hospital Seva</h3>
+            <p>
+              We provide the best<br> and free of cost <br>treatment for any kind of disease <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <style>
+              .blue{
+                color: blue;
+            
+              }
+
+              .red-blue{
+                color:blue;
+              }
+
+              .voilet{
+                color:blue;
+              }
+
+            </style>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter" style="background-color: black"><i class="fab fa-twitter blue"></i></a>
+              <a href="#" class="facebook" style="background-color: black"><i class="fab fa-facebook red-blue"></i></a>
+              <a href="#" class="instagram" style="background-color: black"><i class="fab fa-instagram voilet"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Non-sergical treatments</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">blood/urine tests</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">X-rays/scans</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">MRI scan/CT scan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Physical therapies</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">cosmetic procedures</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Rehabilation procedures</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Brain disorders</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">hematomas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">blood clots</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">contusions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">cerebral edema</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">concussions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">strokes</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Heart disorders</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Coronary angioplasty and stent implantation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Thrombolytic therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Coronary artery bypass graft surgery (CABG)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Artificial pacemaker surgery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Heart valve surgery</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Lungs diseases</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pneumonia</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tuberculosis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Lung cancer</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">pulmonary edema</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Asthama</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Emphysema</a></li>
+              
+            </ul>
+
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>other diseases</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cancer treatments</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Fractures</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Paralesis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Stomach diseases</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pregnancy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">kidney problems</a></li>
+            </ul>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hospital Seva</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by : </a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+     
+</div>
+</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+                                   
+                        <script>
+                            window.onscroll = function() {myFunction()};
+                            
+                            var header = document.getElementById("stick_bar");
+                            var sticky = header.offsetTop;
+                            
+                            function myFunction() {
+                              if (window.pageYOffset > sticky) {
+                                header.classList.add("sticky");
+                              } else {
+                                header.classList.remove("sticky");
+                              }
+                            }
+                            </script>
+    
+</body>
+</html>
